@@ -8,14 +8,15 @@ html, body{
 
 
 .toplook{
-  height: fit-content;
-  width: fit-content;
-  padding: 25px 0px 0px 450px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 460px;
+  /* padding: 25px 0px 0px 450px; */
 }
 
-.toplook img{
-  align-items: center;
-}
+
 
 .container1{
   /* padding: 50px 0px 100px 50px; */
