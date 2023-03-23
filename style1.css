@@ -120,3 +120,37 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: underline; }
 a:active { text-decoration: underline; }
 
+.forms{
+  flex-direction: row;
+}
+
+h3{
+  text-align: center;
+  font-size: 25px;
+}
+
+.aboutMe{
+  padding: 0 4% 1% 4%;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+#r_form{
+  height:fit-content;
+  float:left;
+  width: 30%;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  padding: 0 14px 14px 14px;
+  margin: 3% 0 3% 10%;
+  border-style: inset;
+}
+
+#fb_form{
+  height:fit-content;
+  float: right;
+  width: 30%;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  padding: 0 14px 14px 14px;
+  margin: 3% 10% 3% 0;
+  border-style: inset;
+  margin-bottom: 30px;
+}
